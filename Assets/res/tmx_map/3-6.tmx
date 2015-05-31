@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="13" height="10" tilewidth="68" tileheight="64">
+ <tileset firstgid="1" name="haidao" tilewidth="68" tileheight="64">
+  <image source="haidao.png" width="340" height="512"/>
+  <tile id="2">
+   <properties>
+    <property name="block" value="1"/>
+    <property name="move" value="1"/>
+    <property name="shadow" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="block" value="1"/>
+    <property name="shadow" value="1"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="block" value="1"/>
+    <property name="shadow" value="1"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="block" value="1"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="block" value="1"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="block" value="1"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="block" value="1"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="block" value="1"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="block" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="bg" width="13" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYmBgYCIDM5JJCwCxIA55mBy6uCgQi+EwDyZHrnsGgsblT3zhg8+f+MKHWBoA1LcB4w==
+  </data>
+ </layer>
+ <layer name="object" width="13" height="10">
+  <data encoding="base64" compression="zlib">
+   eJylUEEKADAIEub+/+UxaCAidZggkRmFwB841IRVnDTKjMXVaNrfuouTBptDPN7rLd9zpt9gexSv+oGc4cuJyJl16LwH98gBAQ==
+  </data>
+ </layer>
+ <layer name="block" width="13" height="10">
+  <data encoding="base64" compression="zlib">
+   eJwTYmBgEAZiIRJoXIAPjxwI8BCQJ1UdtQAvhXxaA0rDDT1esMUTAEquAX8=
+  </data>
+ </layer>
+ <layer name="fg" width="13" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAOOHGIwwA7AXlS1VELcFDIpzWgNNzQ44VQPBELAFyYAFg=
+  </data>
+ </layer>
+ <objectgroup name="property" width="13" height="10">
+  <object name="npc61" x="782" y="603">
+   <properties>
+    <property name="playertype" value="npc6"/>
+   </properties>
+  </object>
+  <object x="1111" y="367" width="1"/>
+  <object name="birthpoint" x="106" y="96">
+   <properties>
+    <property name="playertype" value="player"/>
+   </properties>
+  </object>
+  <object name="proprate" x="502" y="352">
+   <properties>
+    <property name="rate" value="0.61"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object name="npc7" x="773" y="98">
+   <properties>
+    <property name="playertype" value="npc7"/>
+   </properties>
+  </object>
+  <object x="1011" y="254" width="1"/>
+  <object x="997" y="714" width="2"/>
+  <object name="npc6" x="216" y="543">
+   <properties>
+    <property name="playertype" value="npc6"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

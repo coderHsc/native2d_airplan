@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="13" height="10" tilewidth="68" tileheight="64">
+ <tileset firstgid="1" name="ditu" tilewidth="68" tileheight="64">
+  <image source="ditu.png" width="204" height="640"/>
+  <tile id="3">
+   <properties>
+    <property name="block" value="1"/>
+    <property name="shadow" value="1"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="block" value="1"/>
+    <property name="shadow" value="1"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="block" value="1"/>
+    <property name="shadow" value="1"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="block" value="1"/>
+    <property name="move" value="1"/>
+    <property name="shadow" value="1"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="block" value="1"/>
+    <property name="shadow" value="1"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="block" value="1"/>
+    <property name="shadow" value="1"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="block" value="1"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="hide" value="1"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="block" value="1"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="block" value="1"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="block" value="1"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="block" value="1"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="block" value="1"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="block" value="1"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="block" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="bg" width="13" height="10">
+  <data encoding="base64" compression="zlib">
+   eJzjYmBg4BrFIx4DADTLBRU=
+  </data>
+ </layer>
+ <layer name="object" width="13" height="10">
+  <data encoding="base64" compression="zlib">
+   eJydkMEKACAIQ71ldOv/P7aChIe4Dg1EmbqVZv/oO/xmu3XFE45+Q5BX+gcTUc1lfc7FfvZjfu0onyHeNh4+0ecNQqf6d76PC57IOl3wBwvWlgMM
+  </data>
+ </layer>
+ <layer name="block" width="13" height="10">
+  <data encoding="base64" compression="zlib">
+   eJzjYWBg4CERkwvYiFTHikNchAAfF5AEYikgliZSPQjIALEsEMsRqZ5ctxEDWHCYjW4HseGLDQAASo4Bzw==
+  </data>
+ </layer>
+ <layer name="fg" width="13" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAPMBOpjgmHuCAQ8yNhQSLM4ifAp5YectxGLGDEYhcyDQPEhi+1AAApqwEG
+  </data>
+ </layer>
+ <objectgroup name="property" width="13" height="10">
+  <object name="birthpoint" x="41" y="100">
+   <properties>
+    <property name="playertype" value="player"/>
+   </properties>
+  </object>
+  <object name="npc22" x="852" y="611">
+   <properties>
+    <property name="playertype" value="npc2"/>
+   </properties>
+  </object>
+  <object name="npc2" x="855" y="99">
+   <properties>
+    <property name="playertype" value="npc2"/>
+   </properties>
+  </object>
+  <object name="proprate" x="97" y="95">
+   <properties>
+    <property name="rate" value="0.59"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object name="npc21" x="57" y="604">
+   <properties>
+    <property name="playertype" value="npc2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

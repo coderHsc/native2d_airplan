@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="13" height="10" tilewidth="68" tileheight="64">
+ <tileset firstgid="1" name="ditu" tilewidth="68" tileheight="64">
+  <image source="ditu.png" width="204" height="640"/>
+  <tile id="3">
+   <properties>
+    <property name="block" value="1"/>
+    <property name="shadow" value="1"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="block" value="1"/>
+    <property name="shadow" value="1"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="block" value="1"/>
+    <property name="shadow" value="1"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="block" value="1"/>
+    <property name="move" value="1"/>
+    <property name="shadow" value="1"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="block" value="1"/>
+    <property name="shadow" value="1"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="block" value="1"/>
+    <property name="shadow" value="1"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="block" value="1"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="hide" value="1"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="block" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="bg" width="13" height="10">
+  <data encoding="base64" compression="zlib">
+   eJzjYmBg4BrFIx4DADTLBRU=
+  </data>
+ </layer>
+ <layer name="object" width="13" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhYwEmieg4kTIr56DQ+d3DgoInRT8gedECqfwi5g1wAAJdgAKM=
+  </data>
+ </layer>
+ <layer name="block" width="13" height="10">
+  <data encoding="base64" compression="zlib">
+   eJzjYWBg4CERg4AICZgBjc0CxBxAzAbls0H5LDjMhqmBycMAC5IZ2PSwIskx4BBHVk8soMQeSvxDbLhh008ofgBpAwUx
+  </data>
+ </layer>
+ <layer name="fg" width="13" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgECQBM6CxGaE0MxrNiKYWWQ8zkjwDknpmPHqYkOQYcIgjqycWUGIPJf4hNtyw6ScUP+QAABHEA50=
+  </data>
+ </layer>
+ <objectgroup name="property" width="13" height="10">
+  <object name="birthpoint" x="173" y="154">
+   <properties>
+    <property name="playertype" value="player"/>
+   </properties>
+  </object>
+  <object name="npc1" x="720" y="551">
+   <properties>
+    <property name="playertype" value="npc1"/>
+   </properties>
+  </object>
+  <object name="prop" x="102" y="341">
+   <properties>
+    <property name="proptype" value="bubble"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object name="prop" x="437" y="340">
+   <properties>
+    <property name="proptype" value="potion"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object name="prop" x="296" y="350">
+   <properties>
+    <property name="proptype" value="shoes"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object name="prop" x="307" y="279">
+   <properties>
+    <property name="proptype" value="potion"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object name="prop" x="306" y="405">
+   <properties>
+    <property name="proptype" value="none"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object name="prop" x="438" y="410">
+   <properties>
+    <property name="proptype" value="potion"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object name="prop" x="443" y="470">
+   <properties>
+    <property name="proptype" value="bubble"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object name="prop" x="375" y="472">
+   <properties>
+    <property name="proptype" value="potion"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object name="prop" x="449" y="544">
+   <properties>
+    <property name="proptype" value="none"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object name="prop" x="510" y="471">
+   <properties>
+    <property name="proptype" value="none"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object name="prop" x="783" y="342">
+   <properties>
+    <property name="proptype" value="shoes"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object name="prop" x="584" y="398">
+   <properties>
+    <property name="proptype" value="bubble"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object name="prop" x="585" y="295">
+   <properties>
+    <property name="proptype" value="none"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object name="prop" x="584" y="334">
+   <properties>
+    <property name="proptype" value="none"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object name="prop" x="507" y="221">
+   <properties>
+    <property name="proptype" value="none"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object name="prop" x="449" y="210">
+   <properties>
+    <property name="proprate" value="bubble"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object name="prop" x="440" y="274">
+   <properties>
+    <property name="proptype" value="none"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object name="prop" x="389" y="213">
+   <properties>
+    <property name="proptype" value="none"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object name="prop" x="455" y="166">
+   <properties>
+    <property name="proptype" value="potion"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object x="983" y="465" width="4">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

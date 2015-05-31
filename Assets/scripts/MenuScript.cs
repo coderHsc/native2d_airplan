@@ -16,13 +16,10 @@ public class MenuScript : MonoBehaviour {
 
 
 	public void clickSingleGame(){
-
-		//Application.loadedLevel("GameScene");
+		Application.LoadLevel("GameScene");
 	}
 
 	public void clickNetGame(){
-
-		print (Application.loadedLevelName);
 		Application.LoadLevel("GameScene");
 	}
 }
